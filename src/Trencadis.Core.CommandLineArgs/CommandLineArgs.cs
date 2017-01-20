@@ -17,6 +17,8 @@ namespace Trencadis.Core.CommandLineArgs
 
     private static readonly Regex SlashOptionColonValueRegex = new Regex(@"\/(.*):(.*)");
 
+    private static readonly Regex MinusOptionEqualValueRegex = new Regex(@"-(.*)=(.*)");
+
     /// <summary>
     /// Detects the styles of defining options and their values from the input arguments.
     /// </summary>
@@ -39,6 +41,11 @@ namespace Trencadis.Core.CommandLineArgs
         if (SlashOptionColonValueRegex.IsMatch(entry))
         {
           return ArgOptionsConvention.SlashOptionColonValue;
+        }
+
+        if (MinusOptionEqualValueRegex.IsMatch(entry))
+        {
+          return ArgOptionsConvention.MinusOptionEqualValue;
         }
 
       }
