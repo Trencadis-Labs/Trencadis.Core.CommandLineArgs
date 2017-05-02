@@ -1,20 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Trencadis.Core.CommandLineArgs", "src\Trencadis.Core.CommandLineArgs\Trencadis.Core.CommandLineArgs.xproj", "{34E46802-3598-43E4-82F6-FFCEDD1D5677}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B4B87F9D-0BB2-47E0-9E00-6AD534B72C08}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3AC7CF3C-F7FD-4941-B7D9-655E40286ED9}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Trencadis.Core.CommandLineArgs.Tests", "tests\Trencadis.Core.CommandLineArgs.Tests\Trencadis.Core.CommandLineArgs.Tests.xproj", "{122900DE-1B76-42D8-8846-922B56A2461F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A54CF97-1E70-46F8-9900-DEB5B73DD90D}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trencadis.Core.CommandLineArgs", "src\Trencadis.Core.CommandLineArgs\Trencadis.Core.CommandLineArgs.csproj", "{34E46802-3598-43E4-82F6-FFCEDD1D5677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trencadis.Core.CommandLineArgs.Tests2", "Trencadis.Core.CommandLineArgs.Tests2\Trencadis.Core.CommandLineArgs.Tests2.csproj", "{4B0DC9E1-E24E-44A3-B398-3DC28BE26F1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,16 +23,16 @@ Global
 		{34E46802-3598-43E4-82F6-FFCEDD1D5677}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34E46802-3598-43E4-82F6-FFCEDD1D5677}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34E46802-3598-43E4-82F6-FFCEDD1D5677}.Release|Any CPU.Build.0 = Release|Any CPU
-		{122900DE-1B76-42D8-8846-922B56A2461F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{122900DE-1B76-42D8-8846-922B56A2461F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{122900DE-1B76-42D8-8846-922B56A2461F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{122900DE-1B76-42D8-8846-922B56A2461F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B0DC9E1-E24E-44A3-B398-3DC28BE26F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B0DC9E1-E24E-44A3-B398-3DC28BE26F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B0DC9E1-E24E-44A3-B398-3DC28BE26F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B0DC9E1-E24E-44A3-B398-3DC28BE26F1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{34E46802-3598-43E4-82F6-FFCEDD1D5677} = {B4B87F9D-0BB2-47E0-9E00-6AD534B72C08}
-		{122900DE-1B76-42D8-8846-922B56A2461F} = {3AC7CF3C-F7FD-4941-B7D9-655E40286ED9}
+		{4B0DC9E1-E24E-44A3-B398-3DC28BE26F1D} = {3AC7CF3C-F7FD-4941-B7D9-655E40286ED9}
 	EndGlobalSection
 EndGlobal

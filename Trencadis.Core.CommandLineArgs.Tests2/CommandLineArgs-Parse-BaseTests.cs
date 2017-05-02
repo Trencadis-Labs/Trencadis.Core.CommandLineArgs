@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Trencadis.Core.CommandLineArgs.Tests
+namespace Trencadis.Core.CommandLineArgs.Tests2
 {
   [TestClass]
   public class CommandLineArgs_Parse_Base_Tests
